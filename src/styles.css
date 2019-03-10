@@ -1,0 +1,13 @@
+* {
+  
+  outline: none;
+  /* color: rgb(211, 209, 100); */
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./media/glenn-carstens-peters-112923-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+

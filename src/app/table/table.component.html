@@ -1,0 +1,14 @@
+<div class="table-container" ng-app="TableApp" ng-controller="setTimeOut">
+  <table>
+    <tr>
+      <th class="table-uid">UUID</th>
+      <th>Delete</th>
+    </tr>
+    <tr class="table-row" *ngFor="let uid of Uids" attr.id="{{uid}}">
+      <td>{{uid}}</td>
+      <td class="table-delete" (click)="deleteUid($event)">&#8855;</td>
+    </tr>
+  </table>
+</div>
+
+

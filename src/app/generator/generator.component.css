@@ -1,0 +1,25 @@
+.generator-container {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center;
+}
+
+.generator-button {
+    border: 1px solid rgb(211, 209, 100);
+    margin: 10px;
+    padding: 15px;
+    font-size: 125%;
+    color: rgb(211, 209, 100);
+    border-radius: 20px;
+    background-color: transparent;
+    transition: background-color 0.5s, border 0.5s, color 0.5s, box-shadow 0.5s;
+}
+
+.generator-button:hover,
+.generator-button:active {
+    border-color: yellow;
+    color: yellow;
+    cursor: pointer;
+    box-shadow: 0 0 50px lightsteelblue;
+    background-color: darkgrey;
+}

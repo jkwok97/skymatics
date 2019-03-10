@@ -1,0 +1,6 @@
+<div class="generator-container" ng-app="GeneratorApp" ng-controller="setTimeOut">
+  <button class="generator-button" (click)="getUid(Uid)">
+    Generate UID
+  </button>
+</div>
+<app-table [Uids]="UidArray" [Timeout]="Timeout"></app-table>

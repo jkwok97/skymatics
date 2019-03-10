@@ -1,0 +1,29 @@
+.table-container {
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: rgb(211, 209, 100);
+}
+
+table {
+    border-collapse: collapse;
+    width: 35%;
+    font-size: 125%;
+}
+
+td, th {
+    border-bottom: 1px solid yellow;
+    text-align: center;
+    padding: 8px;
+}
+
+.table-delete:hover,
+.table-delete:active {
+    cursor: pointer;
+    color: yellow;
+}
+
+.table-uid {
+    width: 80%;
+}

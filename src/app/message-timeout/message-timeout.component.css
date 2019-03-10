@@ -1,0 +1,32 @@
+.message-timeout-container {
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+}
+
+.message-timeout-box {
+    /* border: 1px solid blue; */
+    font-size: 125%;
+    padding: 10px;
+    padding-top: 50px;
+    color: rgb(211, 209, 100);
+}
+
+input {
+    border: 1px solid yellow;
+    padding: 5px;
+    font-size: 100%;
+    margin-left: 10px;
+    width: 5%;
+    background-color: transparent;
+    color: yellow;
+}
+
+input:hover {
+    background-color: black;
+    color: yellow;
+}
+
+::placeholder {
+    color: rgb(211, 209, 100);
+}

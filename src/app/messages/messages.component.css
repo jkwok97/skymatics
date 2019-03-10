@@ -1,0 +1,36 @@
+.messages-container {
+    /* border: 2px solid red; */
+    display: flex;
+    font-size: 125%;
+    justify-content: center;
+}
+
+#messages-box-success {
+    border: 1px solid lightgreen;
+    text-align: center;
+    width: 25%;
+    background-color:lightgreen;
+    color: darkgreen;
+    display: none;
+    border-radius: 20px;
+}
+
+#messages-box-warning {
+    border: 1px solid yellow;
+    text-align: center;
+    width: 25%;
+    background-color:  yellow;
+    color: rgb(97, 97, 1);
+    display: none;
+    border-radius: 20px;
+}
+
+#messages-box-deleted {
+    border: 1px solid red;
+    text-align: center;
+    width: 25%;
+    background-color:  red;
+    color: darkred;
+    display: none;
+    border-radius: 20px;
+}
