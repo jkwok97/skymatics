@@ -6,7 +6,6 @@ import { GeneratorComponent } from './generator/generator.component';
 import { TableComponent } from './table/table.component';
 import { MessageTimeoutComponent } from './message-timeout/message-timeout.component';
 import { MessagesComponent } from './messages/messages.component';
-// import "angular-uuid";
 
 @NgModule({
   declarations: [
